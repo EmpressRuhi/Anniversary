@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+  <title>Happy 3rd Anniversary Arohi</title>
+  <link rel="stylesheet" href="styles.css">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&family=Poppins:wght@300;400;500;600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+  <!-- Lock Overlay -->
+  <div class="lock-overlay" id="lockOverlay">
+    <div class="lock-container">
+      <div class="lock-header">
+        <div class="lock-icon">
+          <i class="fas fa-heart-lock"></i>
+        </div>
+        <h2 class="lock-title">Enter PIN to Unlock</h2>
+        <p class="lock-subtitle">Your special anniversary surprise awaits</p>
+      </div>
+
+      <div class="pin-container">
+        <div class="pin-display">
+          <div class="pin-dot" id="dot1"></div>
+          <div class="pin-dot" id="dot2"></div>
+          <div class="pin-dot" id="dot3"></div>
+          <div class="pin-dot" id="dot4"></div>
+        </div>
+        <div class="pin-error" id="pinError">Incorrect PIN. Try again!</div>
+      </div>
+
+      <div class="keypad">
+        <button class="key-btn" data-key="1">1</button>
+        <button class="key-btn" data-key="2">2</button>
+        <button class="key-btn" data-key="3">3</button>
+        <button class="key-btn" data-key="4">4</button>
+        <button class="key-btn" data-key="5">5</button>
+        <button class="key-btn" data-key="6">6</button>
+        <button class="key-btn" data-key="7">7</button>
+        <button class="key-btn" data-key="8">8</button>
+        <button class="key-btn" data-key="9">9</button>
+        <button class="key-btn key-clear" data-key="clear">
+          <i class="fas fa-backspace"></i>
+        </button>
+        <button class="key-btn" data-key="0">0</button>
+        <button class="key-btn key-enter" data-key="enter">
+          <i class="fas fa-heart"></i>
+        </button>
+      </div>
+
+      <div class="lock-hint">
+        <p><i class="fas fa-lightbulb"></i> Hint: A special date for both of us</p>
+      </div>
+    </div>
+
+    <div class="lock-particles">
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+    </div>
+  </div>
+
+  <!-- Hero Section with Animated Background -->
+  <section class="hero">
+    <div class="animated-bg"></div>
+    <div class="hero-content">
+      <h1 class="main-title">Happy 3rd Anniversary Arohi</h1>
+      <p class="subtitle">3 Years of Love, Laughter & Forever Memories</p>
+    </div>
+  </section>
+
+  <!-- Flip Card Section -->
+  <section class="card-section">
+    <div class="flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <div class="card-content">
+            <h2>Happy 3rd Anniversary!</h2>
+            <p>Click to open your special message</p>
+            <div class="tap-indicator"><i class="fas fa-hand-pointer"></i> Tap me!</div>
+          </div>
+        </div>
+        <div class="flip-card-back">
+          <div class="card-content">
+            <h3>Dear Ruhi,</h3>
+            <p>Today marks our 3rd anniversary! I can't believe how fast time has flown. We have grown so much together
+              my love, and there are so many more years to come for us. I will always be there for you my pookie. I love
+              you from the depths of my heart and will always keep loving you. You are the best person in my life!</p>
+            <p class="signature">- Your Krishna <i class="fas fa-heart"></i></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Memory Gallery -->
+  <section class="memory-gallery">
+    <h2>Our Beautiful Memories <i class="fas fa-heart-circle"></i></h2>
+    <div class="gallery-container">
+      <div class="gallery-item" data-original="Img1.jpg" data-hover="Img3.jpg">
+        <img src="Img1.jpg" alt="Our First Meeting" class="gallery-image">
+      </div>
+      <div class="gallery-item" data-original="Img2.jpg" data-hover="Img5.jpg">
+        <img src="Img2.jpg" alt="Birthday Celebration" class="gallery-image">
+      </div>
+      <div class="gallery-item" data-original="Img4.jpg" data-hover="Img6.jpg">
+        <img src="Img4.jpg" alt="Together Forever" class="gallery-image">
+      </div>
+      <div class="gallery-item" data-original="Img7.jpg" data-hover="Img8.jpg">
+        <img src="Img7.jpg" alt="Beautiful Memories" class="gallery-image">
+      </div>
+    </div>
+  </section>
+
+  <!-- Timeline Section -->
+  <section class="timeline-section">
+    <h2>Our Love Story Timeline</h2>
+    <div class="timeline">
+      <div class="timeline-item">
+        <div class="timeline-date">July 2022</div>
+        <div class="timeline-content">
+          <h3>First Talks</h3>
+          <p>The time when it all started. That shy Aru falling for me, reacting to every story possible.</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-date">August 2022</div>
+        <div class="timeline-content">
+          <h3>The First Look</h3>
+          <p>The first time I saw my queen. Fell in love with her on first sight. What a moment it was!</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-date">September 2022</div>
+        <div class="timeline-content">
+          <h3>The Proposal</h3>
+          <p>Fell in love so hard that everything else was just dust. The moment I realized I couldn't live without you.
+          </p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-date">October 2022</div>
+        <div class="timeline-content">
+          <h3>My First Birthday</h3>
+          <p>My first birthday with Ruhi wasn't something less than a fairytale. That was my first birthday where I was
+            truly happy.</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-date">February 2023</div>
+        <div class="timeline-content">
+          <h3>Ruhi's First Birthday</h3>
+          <p>Our first official meeting and date. The best part - neither of us felt uncomfortable. It was all meant to
+            be. Our first photo together, truly memorable.</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-date">February 2024</div>
+        <div class="timeline-content">
+          <h3>Ruhi's Second Birthday</h3>
+          <p>Ruhi's Second Birthday for which I prepared for monthes was nothing less beautiful than heaven. Overwhelmed
+            by emotions when she cried holding my gifts the moment made my heart melt.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Letter Section -->
+  <section class="letter-section">
+    <div class="letter-container">
+      <div class="letter-header">
+        <h2>A Special Letter For You</h2>
+      </div>
+      <div class="letter-content">
+        <div class="letter-text">
+          <p class="greeting">Hi My Love Arohi,</p>
+          <p>Happy 3 Year Anniversary my wife. Sach bolu to believe hi nahi ho rha ki it has been 3 years jab first time
+            maine tumko dekha tha and I fell for you abhi bhi mere mind me wo memory crystal clear hai jab hum Tum
+            baithe the independence day ke din and maine tumhe notice kiya tha ek sawal ka answer turant mil gaya tha ab
+            to pehchan loge na ? ji han pehchan bhi liya aur usko apna life partner maan bhi liya</p>
+          <p>Never had I ever thought ki mai itna pagal ho bhi skta hu pyaar me kisi ke liye kabhi socha bhi nahi tha ki
+            kisi ke liye mai itna emotional ho bhi sakunga kisi ko apni sari problems bata bhi sakunga pyaar kar bhi
+            sakunga uske sare dukh problems sun bhi sakunga but here we are...here we are my love where I have found
+            that person for life haye I love you so much my wife ✨ I know thoda cheezy thi ye line but pyaar me to
+            that's all fine... Lo tumhare pyaar me apni grammer bhi bigad li humne akhir sabki galtiyan sudharne wala
+            bhi apni madam ji ke aage wo din kahe to din raat kahe to raat kuchao nahi to kuchao nahi maan hi sakta hai
+            ❤</p>
+          <p>Truly Arohi today's the day I fell for you and I fell for you so hard ki bs ab uthna har roz tumhari baahon
+            me hai tumhare sirhane hai ❤ I love you so much meri ruhi ❤</p>
+          <p>Kalesh to khoob karte hai hum log sorry sorry mai meri jaan nhi but I know we both love each other a lot
+            and I know for sure ki bhale hi ye duniya khatam ho jaye tumhara mera pyaar ek dusre ke liye kabhi khatam
+            nahi hoga I love you so much meri jaan and I will forever and ever keep on loving you ❤</p>
+          <p>Aaj 3 saal ho gye hume mile arohi and aur jitne bhi saal aayenge I will keep on loving you more and more
+            chahe kuch bhi ho jaye jitni bhi ladaiyan ho jayen ye pyaar kabhi nahi khatam hoga meri aru because we both
+            know who to choose and we will always choose each other in every moment of life ❤</p>
+          <p>I love you so much meri ruhi meri wife ❤</p>
+          <div class="poem">
+            <p>Ek tum hi to ho jisse hum itni mohobbat krte hain...</p>
+            <p>Har pal Teri yaadon me tere khwabon me marte hain...</p>
+            <p>Han jante hain hum dono bohot zyada hi ladte hain...</p>
+            <p>Par tumhe dekhe bina ek pal na sans hum bharte hain...</p>
+            <p>Meri jaan ek tum hi to ho jisse hum itni mohobbat karte hain...</p>
+          </div>
+          <p class="signature">I love you my love ❤<br>Forever yours <br>Krishna <i class="fas fa-heart"></i></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+
+    <p>I Love You So Much My Baby, Meri Aru</p>
+  </footer>
+  <div class="theme-toggle-container">
+    <button class="theme-toggle" id="themeToggle">
+      <span class="toggle-icon"><i class="fas fa-moon"></i></span>
+      <span class="toggle-text">Dark Mode</span>
+    </button>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
